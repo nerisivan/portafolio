@@ -365,7 +365,15 @@ section.active {
   color: var(--main-color);
 }
 
-.resume-detail .heading {
+.resume-detail {
+  display: none;
+}
+
+.resume-detail.active {
+  display: block;
+}
+
+.resume-box .heading {
   font-size: 3.5rem;
   text-align: left;
 }
@@ -427,7 +435,7 @@ section.active {
 }
 
 .custom-list {
-  list-style-type: none ;
+  list-style-type: none;
   padding: 0;
   margin: .9rem 0;
   font-size: 1.5rem;
